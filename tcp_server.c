@@ -10,8 +10,8 @@
 int main(void){
 
     printf("\033[1m ---------------------- \n");
-    printf("|    TCP/IP Socket     |\n");
-    printf("|   Created by Uzu     |\n");
+    printf("|      TCP Socket      |\n");
+    printf("|     Created by Uzu   |\n");
     printf(" ---------------------- \n\n");
 
     int server_fd = socket(AF_INET, SOCK_STREAM, 0);
